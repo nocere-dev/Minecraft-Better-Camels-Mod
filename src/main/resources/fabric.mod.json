@@ -3,15 +3,16 @@
 	"id": "better-camels",
 	"version": "${version}",
 	"name": "Better Camels",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Mojang added the coolest mob ever and made it a two seater horse that can dash instead of jump. This mod adds the functionality that the camel should have had from day one",
 	"authors": [
-		"Me!"
+		"Nocere",
+		"Astra"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "Custom",
 	"icon": "assets/better-camels/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +21,9 @@
 		],
 		"fabric-datagen": [
 			"com.nocere.bettercamels.BetterCamelsDataGenerator"
+		],
+		"client": [
+			"com.nocere.BetterCamels.BetterCamelsClient"
 		]
 	},
 	"mixins": [
