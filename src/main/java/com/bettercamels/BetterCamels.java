@@ -1,11 +1,13 @@
-package com.example;
+package com.bettercamels;
 
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ExampleMod implements ModInitializer {
+import com.bettercamels.item.ModItems;
+
+public class BetterCamels implements ModInitializer {
 	public static final String MOD_ID = "modid";
 
 	// This logger is used to write text to the console and the log file.
@@ -19,6 +21,7 @@ public class ExampleMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		ModItems.registerModItems();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
