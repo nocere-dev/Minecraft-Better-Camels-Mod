@@ -1,0 +1,6 @@
+﻿{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bettercamels:item/leather_camel_armour_item"
+  }
+}
